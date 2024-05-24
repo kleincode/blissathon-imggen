@@ -1,0 +1,14 @@
+__pycache__
+*.png
+*.mp4
+*.webp
+*.webm
+*.wav
+.bashrc
+.bash_history
+.bash_logout
+.lesshst
+.profile
+.python_history
+.sudo_as_admin_successful
+.cache

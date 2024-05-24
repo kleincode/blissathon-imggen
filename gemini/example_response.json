@@ -1,0 +1,57 @@
+[
+    {'candidates': [
+            {'content': {'role': 'model', 'parts': [
+                        {'text': 'As'
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {'candidates': [
+            {'content': {'role': 'model', 'parts': [
+                        {'text': " an AI, I don't have feelings, but thanks for asking! How"
+                        }
+                    ]
+                }, 'safetyRatings': [
+                    {'category': 'HARM_CATEGORY_HATE_SPEECH', 'probability': 'NEGLIGIBLE', 'probabilityScore': 0.070816204, 'severity': 'HARM_SEVERITY_NEGLIGIBLE', 'severityScore': 0.043609526
+                    },
+                    {'category': 'HARM_CATEGORY_DANGEROUS_CONTENT', 'probability': 'NEGLIGIBLE', 'probabilityScore': 0.038683496, 'severity': 'HARM_SEVERITY_NEGLIGIBLE', 'severityScore': 0.029367855
+                    },
+                    {'category': 'HARM_CATEGORY_HARASSMENT', 'probability': 'NEGLIGIBLE', 'probabilityScore': 0.068040416, 'severity': 'HARM_SEVERITY_NEGLIGIBLE', 'severityScore': 0.038683496
+                    },
+                    {'category': 'HARM_CATEGORY_SEXUALLY_EXPLICIT', 'probability': 'NEGLIGIBLE', 'probabilityScore': 0.21027938, 'severity': 'HARM_SEVERITY_NEGLIGIBLE', 'severityScore': 0.12074952
+                    }
+                ]
+            }
+        ]
+    },
+    {'candidates': [
+            {'content': {'role': 'model', 'parts': [
+                        {'text': ' can I help you today? 😊 \n'
+                        }
+                    ]
+                }, 'safetyRatings': [
+                    {'category': 'HARM_CATEGORY_HATE_SPEECH', 'probability': 'NEGLIGIBLE', 'probabilityScore': 0.060640547, 'severity': 'HARM_SEVERITY_NEGLIGIBLE', 'severityScore': 0.050705366
+                    },
+                    {'category': 'HARM_CATEGORY_DANGEROUS_CONTENT', 'probability': 'NEGLIGIBLE', 'probabilityScore': 0.047074173, 'severity': 'HARM_SEVERITY_NEGLIGIBLE', 'severityScore': 0.05953749
+                    },
+                    {'category': 'HARM_CATEGORY_HARASSMENT', 'probability': 'NEGLIGIBLE', 'probabilityScore': 0.060863446, 'severity': 'HARM_SEVERITY_NEGLIGIBLE', 'severityScore': 0.03321117
+                    },
+                    {'category': 'HARM_CATEGORY_SEXUALLY_EXPLICIT', 'probability': 'NEGLIGIBLE', 'probabilityScore': 0.22884515, 'severity': 'HARM_SEVERITY_NEGLIGIBLE', 'severityScore': 0.06916356
+                    }
+                ]
+            }
+        ]
+    },
+    {'candidates': [
+            {'content': {'role': 'model', 'parts': [
+                        {'text': ''
+                        }
+                    ]
+                }, 'finishReason': 'STOP'
+            }
+        ], 'usageMetadata': {'promptTokenCount': 4, 'candidatesTokenCount': 26, 'totalTokenCount': 30
+        }
+    }
+]

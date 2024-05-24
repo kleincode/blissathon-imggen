@@ -1,0 +1,10 @@
+{
+    "instances": [
+      {
+        "prompt": "Nyan cat flying over Berlin"
+      }
+    ],
+    "parameters": {
+      "sampleCount": 4
+    }
+}
