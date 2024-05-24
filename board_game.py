@@ -5,7 +5,7 @@ import time
 from math import floor
 
 PROMPT = """
-pick a random polictical conflict from the 20th or 21th century and describe in a few sentences how one could meme the conflict using an image of an existing board game where the most important persons are the game figures.""".strip()
+pick a random polictical conflict from the 20th or 21th century and describe in a few sentences how one could meme the conflict using an image of an existing board game where the conflict partys are the game figures.""".strip()
 FONT_SIZE = 80
 
 gemini_out = ask_gemini(PROMPT)

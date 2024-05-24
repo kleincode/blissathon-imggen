@@ -8,15 +8,16 @@ from PIL import features
 import io
 from PIL import ImageDraw
 from moviepy.editor import *
-from imagen2.publish import publish
+from publish import publish
 import moviepy.video.io.ImageSequenceClip
 from imagen2.gen_img import gen_img
+from datetime import datetime
 
 
 import vertexai
 from vertexai.preview.generative_models import GenerativeModel, Image
 
-
+random.seed(datetime.now().timestamp())
 FONT_SIZE = 50
 
 PROJECT_ID = "bliss-hack24ber-6526"
@@ -80,4 +81,4 @@ while not success:
 
         if sec == "Y":
             print("Publishing...")
-            #publish("roastPost.mp4")
+            publish("roastPost.mp4")
